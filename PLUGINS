@@ -1,0 +1,10 @@
+PLUGINS
+
+Here, you can find a list of all plugins used in this project.
+The purpose of this file is only to maintain a clean information about plugins.
+If you want to see what plugins we are using, just take a look in the list above.
+Please, keep this updated!
+
+= RESTFull Authentication
+= git://github.com/technoweenie/restful-authentication.git
+= http://agilewebdevelopment.com/plugins/restful_authentication

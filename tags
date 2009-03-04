@@ -1,0 +1,323 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AasmRoles	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^  module AasmRoles$/;"	m	class:Authorization
+AccessControlTestController	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/access_control_spec.rb	/^class AccessControlTestController < ApplicationController$/;"	c
+ApplicationController	app/controllers/application.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+AuthenticatedGenerator	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^class AuthenticatedGenerator < Rails::Generator::NamedBase$/;"	c
+AuthenticatedSystem	lib/authenticated_system.rb	/^module AuthenticatedSystem$/;"	m
+AuthenticatedSystem	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^module AuthenticatedSystem$/;"	m
+AuthenticatedTestHelper	lib/authenticated_test_helper.rb	/^module AuthenticatedTestHelper$/;"	m
+AuthenticatedTestHelper	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_test_helper.rb	/^module AuthenticatedTestHelper$/;"	m
+Authentication	vendor/plugins/restful-authentication/lib/authentication.rb	/^module Authentication$/;"	m
+Authentication	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^module Authentication$/;"	m
+Authentication	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^module Authentication$/;"	m
+Authorization	vendor/plugins/restful-authentication/lib/authorization.rb	/^module Authorization$/;"	m
+Authorization	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^module Authorization$/;"	m
+Authorization	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.rb	/^module Authorization$/;"	m
+Boot	config/boot.rb	/^  class Boot$/;"	c
+BrowsingTest	test/performance/browsing_test.rb	/^class BrowsingTest < ActionController::PerformanceTest$/;"	c
+ByCookieToken	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^  module ByCookieToken$/;"	m	class:Authentication
+ByCookieTokenController	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^  module ByCookieTokenController$/;"	m	class:Authentication
+ByPassword	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^  module ByPassword$/;"	m	class:Authentication
+ClassMethods	vendor/plugins/restful-authentication/lib/trustification/email_validation.rb	/^    module ClassMethods$/;"	m	class:Trustification.EmailValidation
+ControllerClassMethods	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^    module ControllerClassMethods$/;"	m	class:Authentication.ByCookieTokenController
+ControllerInstanceMethods	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^    module ControllerInstanceMethods$/;"	m	class:Authentication.ByCookieTokenController
+CreateUsers	db/migrate/20090304013306_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+EmailValidation	vendor/plugins/restful-authentication/lib/trustification/email_validation.rb	/^  module EmailValidation$/;"	m	class:Trustification
+GemBoot	config/boot.rb	/^  class GemBoot < Boot$/;"	c
+HomeController	app/controllers/home_controller.rb	/^class HomeController < ApplicationController$/;"	c
+InstanceMethods	vendor/plugins/restful-authentication/lib/trustification/email_validation.rb	/^    module InstanceMethods$/;"	m	class:Trustification.EmailValidation
+ModelClassMethods	vendor/plugins/restful-authentication/lib/authentication.rb	/^  module ModelClassMethods$/;"	m	class:Authentication
+ModelClassMethods	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^    module ModelClassMethods$/;"	m	class:Authentication.ByCookieToken
+ModelClassMethods	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^    module ModelClassMethods$/;"	m	class:Authentication.ByPassword
+ModelClassMethods	vendor/plugins/restful-authentication/lib/authorization.rb	/^  module ModelClassMethods$/;"	m	class:Authorization
+ModelClassMethods	vendor/plugins/restful-authentication/lib/trustification.rb	/^  module ModelClassMethods$/;"	m	class:Trustification
+ModelInstanceMethods	vendor/plugins/restful-authentication/lib/authentication.rb	/^  module ModelInstanceMethods$/;"	m	class:Authentication
+ModelInstanceMethods	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^    module ModelInstanceMethods$/;"	m	class:Authentication.ByCookieToken
+ModelInstanceMethods	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^    module ModelInstanceMethods$/;"	m	class:Authentication.ByPassword
+ModelInstanceMethods	vendor/plugins/restful-authentication/lib/authorization.rb	/^  module ModelInstanceMethods$/;"	m	class:Authorization
+ModelInstanceMethods	vendor/plugins/restful-authentication/lib/trustification.rb	/^  module ModelInstanceMethods$/;"	m	class:Trustification
+Rails	config/boot.rb	/^module Rails$/;"	m
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SessionsController	test/functional/sessions_controller_test.rb	/^class SessionsController; def rescue_action(e) raise e end; end$/;"	c
+SessionsControllerTest	test/functional/sessions_controller_test.rb	/^class SessionsControllerTest < ActionController::TestCase$/;"	c
+SessionsHelper	app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+StatefulRoles	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.rb	/^  module StatefulRoles$/;"	m	class:Authorization
+StatefulRolesClassMethods	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^    module StatefulRolesClassMethods$/;"	m	class:Authorization.AasmRoles
+StatefulRolesClassMethods	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.rb	/^    module StatefulRolesClassMethods$/;"	m	class:Authorization.StatefulRoles
+StatefulRolesInstanceMethods	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^    module StatefulRolesInstanceMethods$/;"	m	class:Authorization.AasmRoles
+StatefulRolesInstanceMethods	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.rb	/^    module StatefulRolesInstanceMethods$/;"	m	class:Authorization.StatefulRoles
+String	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^class String$/;"	c	class:ToFooFromStory
+Test	test/test_helper.rb	/^class Test::Unit::TestCase$/;"	c
+ToFooFromStory	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^module ToFooFromStory$/;"	m
+Trustification	vendor/plugins/restful-authentication/lib/trustification.rb	/^module Trustification$/;"	m
+Trustification	vendor/plugins/restful-authentication/lib/trustification/email_validation.rb	/^module Trustification$/;"	m
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserTest	test/unit/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersController	test/functional/users_controller_test.rb	/^class UsersController; def rescue_action(e) raise e end; end$/;"	c
+UsersControllerTest	test/functional/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+VendorBoot	config/boot.rb	/^  class VendorBoot < Boot$/;"	c
+access_denied	lib/authenticated_system.rb	/^    def access_denied$/;"	f	class:AuthenticatedSystem
+access_denied	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def access_denied$/;"	f	class:AuthenticatedSystem
+action_name	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/authenticated_system_spec.rb	/^def action_name() end$/;"	f
+activate	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def activate$/;"	f
+activate!	vendor/plugins/restful-authentication/generators/authenticated/templates/model.rb	/^  def activate!$/;"	f
+activation	vendor/plugins/restful-authentication/generators/authenticated/templates/mailer.rb	/^  def activation(<%= file_name %>)$/;"	f
+active?	vendor/plugins/restful-authentication/generators/authenticated/templates/model.rb	/^  def active?$/;"	f
+add_options!	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def add_options!(opt)$/;"	f	class:AuthenticatedGenerator
+after_create	vendor/plugins/restful-authentication/generators/authenticated/templates/observer.rb	/^  def after_create(<%= file_name %>)$/;"	f
+after_save	vendor/plugins/restful-authentication/generators/authenticated/templates/observer.rb	/^  def after_save(<%= file_name %>)$/;"	f
+auth_token	test/functional/sessions_controller_test.rb	/^    def auth_token(token)$/;"	f	class:SessionsControllerTest
+auth_token	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^    def auth_token(token)$/;"	f
+authenticate	app/models/user.rb	/^  def self.authenticate(login, password)$/;"	F	class:User
+authenticate	vendor/plugins/restful-authentication/generators/authenticated/templates/model.rb	/^  def self.authenticate(login, password)$/;"	F
+authenticated?	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^      def authenticated?(password)$/;"	f	class:Authentication.ByPassword.ModelInstanceMethods
+authorize_as	lib/authenticated_test_helper.rb	/^  def authorize_as(user)$/;"	f	class:AuthenticatedTestHelper
+authorize_as	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_test_helper.rb	/^  def authorize_as(<%= file_name %>)$/;"	f	class:AuthenticatedTestHelper
+authorized?	lib/authenticated_system.rb	/^    def authorized?(action = action_name, resource = nil)$/;"	f	class:AuthenticatedSystem
+authorized?	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def authorized?(action = action_name, resource = nil)$/;"	f	class:AuthenticatedSystem
+banner	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def banner$/;"	f	class:AuthenticatedGenerator
+boot!	config/boot.rb	/^    def boot!$/;"	f	class:Rails
+booted?	config/boot.rb	/^    def booted?$/;"	f	class:Rails
+cookie_for	test/functional/sessions_controller_test.rb	/^    def cookie_for(user)$/;"	f	class:SessionsControllerTest
+cookie_for	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^    def cookie_for(<%= file_name %>)$/;"	f
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+create	vendor/plugins/restful-authentication/generators/authenticated/templates/controller.rb	/^  def create$/;"	f
+create	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def create$/;"	f
+create_	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/users_controller_spec.rb	/^  def create_<%= file_name %>(options = {})$/;"	f
+create_	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/models/user_spec.rb	/^  def create_<%= file_name %>(options = {})$/;"	f
+create_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^    def create_<%= file_name %>(options = {})$/;"	f
+create_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def create_<%= file_name %>(options = {})$/;"	f
+create_user	test/functional/users_controller_test.rb	/^    def create_user(options = {})$/;"	f	class:UsersControllerTest
+create_user	test/unit/user_test.rb	/^  def create_user(options = {})$/;"	f	class:UserTest
+create_user	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/user_steps.rb	/^def create_user(user_params={})$/;"	f
+create_user!	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/user_steps.rb	/^def create_user!(user_type, user_params)$/;"	f
+current_	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def current_<%= file_name %>$/;"	f	class:AuthenticatedSystem
+current_	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def current_<%= file_name %>=(new_<%= file_name %>)$/;"	f	class:AuthenticatedSystem
+current_user	lib/authenticated_system.rb	/^    def current_user$/;"	f	class:AuthenticatedSystem
+current_user=	lib/authenticated_system.rb	/^    def current_user=(new_user)$/;"	f	class:AuthenticatedSystem
+destroy	app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+destroy	vendor/plugins/restful-authentication/generators/authenticated/templates/controller.rb	/^  def destroy$/;"	f
+destroy	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def destroy$/;"	f
+do_activate	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^      def do_activate$/;"	f	class:Authorization.AasmRoles.StatefulRolesInstanceMethods
+do_activate	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.rb	/^      def do_activate$/;"	f	class:Authorization.StatefulRoles.StatefulRolesInstanceMethods
+do_create	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/sessions_controller_spec.rb	/^  def do_create$/;"	f
+do_delete	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^      def do_delete$/;"	f	class:Authorization.AasmRoles.StatefulRolesInstanceMethods
+do_delete	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.rb	/^      def do_delete$/;"	f	class:Authorization.StatefulRoles.StatefulRolesInstanceMethods
+do_destroy	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/sessions_controller_spec.rb	/^    def do_destroy$/;"	f
+down	db/migrate/20090304013306_create_users.rb	/^  def self.down$/;"	F
+down	vendor/plugins/restful-authentication/generators/authenticated/templates/migration.rb	/^  def self.down$/;"	F
+dump_generator_attribute_names	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def dump_generator_attribute_names$/;"	f	class:AuthenticatedGenerator
+dump_response	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^def dump_response$/;"	f	class:ToFooFromStory
+email=	app/models/user.rb	/^  def email=(value)$/;"	f	class:User
+email=	vendor/plugins/restful-authentication/generators/authenticated/templates/model.rb	/^  def email=(value)$/;"	f
+encode	vendor/plugins/restful-authentication/generators/authenticated/templates/test/mailer_test.rb	/^    def encode(subject)$/;"	f
+encrypt	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^      def encrypt(password)$/;"	f	class:Authentication.ByPassword.ModelInstanceMethods
+encrypt_password	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^      def encrypt_password$/;"	f	class:Authentication.ByPassword.ModelInstanceMethods
+failsafe_response	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^  def self.failsafe_response(output, status, exception = nil)$/;"	F
+find_	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def find_<%= file_name %>$/;"	f
+find_resource	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_resource_steps.rb	/^def find_resource resource, conditions$/;"	f
+fix_key	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^  def ToFooFromStory.fix_key key$/;"	F	class:ToFooFromStory
+fix_value	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^  def ToFooFromStory.fix_value value$/;"	F	class:ToFooFromStory
+forget_me	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^      def forget_me$/;"	f	class:Authentication.ByCookieToken.ModelInstanceMethods
+gem_version	config/boot.rb	/^      def gem_version$/;"	f	class:GemBoot
+grok_path	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_response_steps.rb	/^def grok_path path$/;"	f
+handle_remember_cookie!	lib/authenticated_system.rb	/^    def handle_remember_cookie!(new_cookie_flag)$/;"	f	class:AuthenticatedSystem
+handle_remember_cookie!	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def handle_remember_cookie!(new_cookie_flag)$/;"	f	class:AuthenticatedSystem
+has_rspec?	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def has_rspec?$/;"	f	class:AuthenticatedGenerator
+have_flash	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_response_steps.rb	/^def have_flash notice, *args$/;"	f
+if_authorized?	app/helpers/users_helper.rb	/^  def if_authorized?(action, resource, &block)$/;"	f	class:UsersHelper
+if_authorized?	vendor/plugins/restful-authentication/generators/authenticated/templates/model_helper.rb	/^  def if_authorized?(action, resource, &block)$/;"	f
+included	lib/authenticated_system.rb	/^    def self.included(base)$/;"	F	class:AuthenticatedSystem
+included	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def self.included(base)$/;"	F	class:AuthenticatedSystem
+included	vendor/plugins/restful-authentication/lib/authentication.rb	/^  def self.included(recipient)$/;"	F	class:Authentication
+included	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^    def self.included( recipient )$/;"	F	class:Authentication.ByCookieTokenController
+included	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^    def self.included(recipient)$/;"	F	class:Authentication.ByCookieToken
+included	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^    def self.included(recipient)$/;"	F	class:Authentication.ByPassword
+included	vendor/plugins/restful-authentication/lib/authorization.rb	/^  def self.included(recipient)$/;"	F	class:Authorization
+included	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^    def self.included( recipient )$/;"	F	class:Authorization.AasmRoles
+included	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.rb	/^    def self.included( recipient )$/;"	F	class:Authorization.StatefulRoles
+included	vendor/plugins/restful-authentication/lib/trustification.rb	/^  def self.included(recipient)$/;"	F	class:Trustification
+included	vendor/plugins/restful-authentication/lib/trustification/email_validation.rb	/^    def self.included(recipient)$/;"	F	class:Trustification.EmailValidation
+index	app/controllers/home_controller.rb	/^  def index$/;"	f	class:HomeController
+initialize	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def initialize(runtime_args, runtime_options = {})$/;"	f	class:AuthenticatedGenerator
+instantize	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^def instantize(string)$/;"	f	class:ToFooFromStory
+keep_instance!	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_resource_steps.rb	/^def keep_instance! resource, object$/;"	f
+kill_remember_cookie!	lib/authenticated_system.rb	/^    def kill_remember_cookie!$/;"	f	class:AuthenticatedSystem
+kill_remember_cookie!	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def kill_remember_cookie!$/;"	f	class:AuthenticatedSystem
+link_to_	vendor/plugins/restful-authentication/generators/authenticated/templates/model_helper.rb	/^  def link_to_<%= file_name %>(<%= file_name %>, options={})$/;"	f
+link_to_current_	vendor/plugins/restful-authentication/generators/authenticated/templates/model_helper.rb	/^  def link_to_current_<%= file_name %>(options={})$/;"	f
+link_to_current_user	app/helpers/users_helper.rb	/^  def link_to_current_user(options={})$/;"	f	class:UsersHelper
+link_to_login_with_IP	app/helpers/users_helper.rb	/^  def link_to_login_with_IP content_text=nil, options={}$/;"	f	class:UsersHelper
+link_to_login_with_IP	vendor/plugins/restful-authentication/generators/authenticated/templates/model_helper.rb	/^  def link_to_login_with_IP content_text=nil, options={}$/;"	f
+link_to_user	app/helpers/users_helper.rb	/^  def link_to_user(user, options={})$/;"	f	class:UsersHelper
+load_initializer	config/boot.rb	/^    def load_initializer$/;"	f	class:GemBoot
+load_initializer	config/boot.rb	/^    def load_initializer$/;"	f	class:VendorBoot
+load_or_initialize_site_keys	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def load_or_initialize_site_keys$/;"	f	class:AuthenticatedGenerator
+load_rails_gem	config/boot.rb	/^    def load_rails_gem$/;"	f	class:GemBoot
+load_rubygems	config/boot.rb	/^      def load_rubygems$/;"	f	class:GemBoot
+log_in_user	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/user_steps.rb	/^def log_in_user user_params=nil$/;"	f
+log_in_user!	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/user_steps.rb	/^def log_in_user! *args$/;"	f
+log_out	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/user_steps.rb	/^def log_out$/;"	f
+log_out!	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/user_steps.rb	/^def log_out!$/;"	f
+logged_in?	lib/authenticated_system.rb	/^    def logged_in?$/;"	f	class:AuthenticatedSystem
+logged_in?	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def logged_in?$/;"	f	class:AuthenticatedSystem
+login=	app/models/user.rb	/^  def login=(value)$/;"	f	class:User
+login=	vendor/plugins/restful-authentication/generators/authenticated/templates/model.rb	/^  def login=(value)$/;"	f
+login_as	lib/authenticated_test_helper.rb	/^  def login_as(user)$/;"	f	class:AuthenticatedTestHelper
+login_as	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_test_helper.rb	/^  def login_as(<%= file_name %>)$/;"	f	class:AuthenticatedTestHelper
+login_from_basic_auth	lib/authenticated_system.rb	/^    def login_from_basic_auth$/;"	f	class:AuthenticatedSystem
+login_from_basic_auth	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def login_from_basic_auth$/;"	f	class:AuthenticatedSystem
+login_from_cookie	lib/authenticated_system.rb	/^    def login_from_cookie$/;"	f	class:AuthenticatedSystem
+login_from_cookie	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def login_from_cookie$/;"	f	class:AuthenticatedSystem
+login_from_session	lib/authenticated_system.rb	/^    def login_from_session$/;"	f	class:AuthenticatedSystem
+login_from_session	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def login_from_session$/;"	f	class:AuthenticatedSystem
+login_is_required	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/access_control_spec.rb	/^  def login_is_required$/;"	f	class:AccessControlTestController
+login_not_required	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/access_control_spec.rb	/^  def login_not_required$/;"	f	class:AccessControlTestController.login_is_required
+login_required	lib/authenticated_system.rb	/^    def login_required$/;"	f	class:AuthenticatedSystem
+login_required	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def login_required$/;"	f	class:AuthenticatedSystem
+logout_keeping_session!	lib/authenticated_system.rb	/^    def logout_keeping_session!$/;"	f	class:AuthenticatedSystem
+logout_keeping_session!	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def logout_keeping_session!$/;"	f	class:AuthenticatedSystem
+logout_killing_session!	lib/authenticated_system.rb	/^    def logout_killing_session!$/;"	f	class:AuthenticatedSystem
+logout_killing_session!	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def logout_killing_session!$/;"	f	class:AuthenticatedSystem
+make_activation_code	vendor/plugins/restful-authentication/generators/authenticated/templates/model.rb	/^    def make_activation_code$/;"	f
+make_token	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def make_token$/;"	f	class:AuthenticatedGenerator
+make_token	vendor/plugins/restful-authentication/lib/authentication.rb	/^    def make_token$/;"	f	class:Authentication.ModelClassMethods
+manifest	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def manifest$/;"	f	class:AuthenticatedGenerator
+memorize_forget_all!	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_resource_steps.rb	/^def memorize_forget_all!$/;"	f
+memorize_resource_value	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_resource_steps.rb	/^def memorize_resource_value resource, attr$/;"	f
+mock_	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_test_helper.rb	/^  def mock_<%= file_name %>$/;"	f	class:AuthenticatedTestHelper
+named_user	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/user_steps.rb	/^def named_user login$/;"	f
+new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+new	vendor/plugins/restful-authentication/generators/authenticated/templates/controller.rb	/^  def new$/;"	f
+new	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def new$/;"	f
+note_failed_signin	app/controllers/sessions_controller.rb	/^  def note_failed_signin$/;"	f	class:SessionsController
+note_failed_signin	vendor/plugins/restful-authentication/generators/authenticated/templates/controller.rb	/^  def note_failed_signin$/;"	f
+parse_gem_version	config/boot.rb	/^      def parse_gem_version(text)$/;"	f	class:GemBoot
+parse_resource_args	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_resource_steps.rb	/^def parse_resource_args resource, attributes=nil$/;"	f
+password_digest	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def password_digest(password, salt)$/;"	f	class:AuthenticatedGenerator
+password_digest	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^      def password_digest(password, salt)$/;"	f	class:Authentication.ByPassword.ModelClassMethods
+password_required?	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^      def password_required?$/;"	f	class:Authentication.ByPassword.ModelInstanceMethods
+perform_action	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^  def perform_action$/;"	f
+pick_boot	config/boot.rb	/^    def pick_boot$/;"	f	class:Rails
+preinitialize	config/boot.rb	/^    def preinitialize$/;"	f	class:Rails
+preinitializer_path	config/boot.rb	/^    def preinitializer_path$/;"	f	class:Rails
+purge	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def purge$/;"	f
+read_environment_rb	config/boot.rb	/^        def read_environment_rb$/;"	f	class:GemBoot
+read_fixture	vendor/plugins/restful-authentication/generators/authenticated/templates/test/mailer_test.rb	/^    def read_fixture(action)$/;"	f
+recall_resource_value	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_resource_steps.rb	/^def recall_resource_value resource, attr$/;"	f
+recently_activated?	vendor/plugins/restful-authentication/generators/authenticated/templates/model.rb	/^  def recently_activated?$/;"	f
+recently_activated?	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^      def recently_activated?$/;"	f	class:Authorization.AasmRoles.StatefulRolesInstanceMethods
+recently_activated?	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.rb	/^      def recently_activated?$/;"	f	class:Authorization.StatefulRoles.StatefulRolesInstanceMethods
+redirect_back_or_default	lib/authenticated_system.rb	/^    def redirect_back_or_default(default)$/;"	f	class:AuthenticatedSystem
+redirect_back_or_default	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def redirect_back_or_default(default)$/;"	f	class:AuthenticatedSystem
+refresh_token	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^      def refresh_token$/;"	f	class:Authentication.ByCookieToken.ModelInstanceMethods
+remember_me	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^      def remember_me$/;"	f	class:Authentication.ByCookieToken.ModelInstanceMethods
+remember_me_for	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^      def remember_me_for(time)$/;"	f	class:Authentication.ByCookieToken.ModelInstanceMethods
+remember_me_until	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^      def remember_me_until(time)$/;"	f	class:Authentication.ByCookieToken.ModelInstanceMethods
+remember_token?	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^      def remember_token?$/;"	f	class:Authentication.ByCookieToken.ModelInstanceMethods
+route_name	vendor/plugins/restful-authentication/generators/authenticated/lib/insert_routes.rb	/^  def route_name(name, path, options = {})$/;"	f
+route_name	vendor/plugins/restful-authentication/generators/authenticated/lib/insert_routes.rb	/^  def route_name(name, path, route_options = {})$/;"	f
+route_resource	vendor/plugins/restful-authentication/generators/authenticated/lib/insert_routes.rb	/^  def route_resource(*resources)$/;"	f
+rubygems_version	config/boot.rb	/^      def rubygems_version$/;"	f	class:GemBoot
+run	config/boot.rb	/^    def run$/;"	f	class:Boot
+secure_digest	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def secure_digest(*args)$/;"	f	class:AuthenticatedGenerator
+secure_digest	vendor/plugins/restful-authentication/lib/authentication.rb	/^    def secure_digest(*args)$/;"	f	class:Authentication.ModelClassMethods
+send_remember_cookie!	lib/authenticated_system.rb	/^    def send_remember_cookie!$/;"	f	class:AuthenticatedSystem
+send_remember_cookie!	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def send_remember_cookie!$/;"	f	class:AuthenticatedSystem
+set_remember_token	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/authenticated_system_spec.rb	/^    def set_remember_token token, time$/;"	f
+setup	vendor/plugins/restful-authentication/generators/authenticated/templates/test/mailer_test.rb	/^  def setup$/;"	f
+setup_email	vendor/plugins/restful-authentication/generators/authenticated/templates/mailer.rb	/^    def setup_email(<%= file_name %>)$/;"	f
+signup_notification	vendor/plugins/restful-authentication/generators/authenticated/templates/mailer.rb	/^  def signup_notification(<%= file_name %>)$/;"	f
+site_keys_file	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def site_keys_file$/;"	f	class:AuthenticatedGenerator
+store_location	lib/authenticated_system.rb	/^    def store_location$/;"	f	class:AuthenticatedSystem
+store_location	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def store_location$/;"	f	class:AuthenticatedSystem
+suspend	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def suspend$/;"	f
+template_for	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_response_steps.rb	/^def template_for(action, resource)$/;"	f
+test_dummy_test	vendor/plugins/restful-authentication/generators/authenticated/templates/test/mailer_test.rb	/^  def test_dummy_test$/;"	f
+test_homepage	test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest
+test_should_activate_user	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_activate_user$/;"	f
+test_should_allow_signup	test/functional/users_controller_test.rb	/^  def test_should_allow_signup$/;"	f	class:UsersControllerTest
+test_should_allow_signup	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_allow_signup$/;"	f
+test_should_authenticate_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_authenticate_<%= file_name %>$/;"	f
+test_should_authenticate_user	test/unit/user_test.rb	/^  def test_should_authenticate_user$/;"	f	class:UserTest
+test_should_create_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_create_<%= file_name %>$/;"	f
+test_should_create_and_start_in_pending_state	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_create_and_start_in_pending_state$/;"	f
+test_should_create_user	test/unit/user_test.rb	/^  def test_should_create_user$/;"	f	class:UserTest
+test_should_delete_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_delete_<%= file_name %>$/;"	f
+test_should_delete_token_on_logout	test/functional/sessions_controller_test.rb	/^  def test_should_delete_token_on_logout$/;"	f	class:SessionsControllerTest
+test_should_delete_token_on_logout	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^  def test_should_delete_token_on_logout$/;"	f
+test_should_fail_cookie_login	test/functional/sessions_controller_test.rb	/^  def test_should_fail_cookie_login$/;"	f	class:SessionsControllerTest
+test_should_fail_cookie_login	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^  def test_should_fail_cookie_login$/;"	f
+test_should_fail_expired_cookie_login	test/functional/sessions_controller_test.rb	/^  def test_should_fail_expired_cookie_login$/;"	f	class:SessionsControllerTest
+test_should_fail_expired_cookie_login	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^  def test_should_fail_expired_cookie_login$/;"	f
+test_should_fail_login_and_not_redirect	test/functional/sessions_controller_test.rb	/^  def test_should_fail_login_and_not_redirect$/;"	f	class:SessionsControllerTest
+test_should_fail_login_and_not_redirect	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^  def test_should_fail_login_and_not_redirect$/;"	f
+test_should_initialize_activation_code_upon_creation	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_initialize_activation_code_upon_creation$/;"	f
+test_should_login_and_redirect	test/functional/sessions_controller_test.rb	/^  def test_should_login_and_redirect$/;"	f	class:SessionsControllerTest
+test_should_login_and_redirect	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^  def test_should_login_and_redirect$/;"	f
+test_should_login_with_cookie	test/functional/sessions_controller_test.rb	/^  def test_should_login_with_cookie$/;"	f	class:SessionsControllerTest
+test_should_login_with_cookie	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^  def test_should_login_with_cookie$/;"	f
+test_should_logout	test/functional/sessions_controller_test.rb	/^  def test_should_logout$/;"	f	class:SessionsControllerTest
+test_should_logout	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^  def test_should_logout$/;"	f
+test_should_not_activate_user_with_blank_key	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_not_activate_user_with_blank_key$/;"	f
+test_should_not_activate_user_without_key	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_not_activate_user_without_key$/;"	f
+test_should_not_rehash_password	test/unit/user_test.rb	/^  def test_should_not_rehash_password$/;"	f	class:UserTest
+test_should_not_rehash_password	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_not_rehash_password$/;"	f
+test_should_not_remember_me	test/functional/sessions_controller_test.rb	/^  def test_should_not_remember_me$/;"	f	class:SessionsControllerTest
+test_should_not_remember_me	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^  def test_should_not_remember_me$/;"	f
+test_should_register_passive_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_register_passive_<%= file_name %>$/;"	f
+test_should_remember_me	test/functional/sessions_controller_test.rb	/^  def test_should_remember_me$/;"	f	class:SessionsControllerTest
+test_should_remember_me	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^  def test_should_remember_me$/;"	f
+test_should_remember_me_default_two_weeks	test/unit/user_test.rb	/^  def test_should_remember_me_default_two_weeks$/;"	f	class:UserTest
+test_should_remember_me_default_two_weeks	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_remember_me_default_two_weeks$/;"	f
+test_should_remember_me_for_one_week	test/unit/user_test.rb	/^  def test_should_remember_me_for_one_week$/;"	f	class:UserTest
+test_should_remember_me_for_one_week	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_remember_me_for_one_week$/;"	f
+test_should_remember_me_until_one_week	test/unit/user_test.rb	/^  def test_should_remember_me_until_one_week$/;"	f	class:UserTest
+test_should_remember_me_until_one_week	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_remember_me_until_one_week$/;"	f
+test_should_require_email	test/unit/user_test.rb	/^  def test_should_require_email$/;"	f	class:UserTest
+test_should_require_email	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_require_email$/;"	f
+test_should_require_email_on_signup	test/functional/users_controller_test.rb	/^  def test_should_require_email_on_signup$/;"	f	class:UsersControllerTest
+test_should_require_email_on_signup	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_require_email_on_signup$/;"	f
+test_should_require_login	test/unit/user_test.rb	/^  def test_should_require_login$/;"	f	class:UserTest
+test_should_require_login	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_require_login$/;"	f
+test_should_require_login_on_signup	test/functional/users_controller_test.rb	/^  def test_should_require_login_on_signup$/;"	f	class:UsersControllerTest
+test_should_require_login_on_signup	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_require_login_on_signup$/;"	f
+test_should_require_password	test/unit/user_test.rb	/^  def test_should_require_password$/;"	f	class:UserTest
+test_should_require_password	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_require_password$/;"	f
+test_should_require_password_confirmation	test/unit/user_test.rb	/^  def test_should_require_password_confirmation$/;"	f	class:UserTest
+test_should_require_password_confirmation	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_require_password_confirmation$/;"	f
+test_should_require_password_confirmation_on_signup	test/functional/users_controller_test.rb	/^  def test_should_require_password_confirmation_on_signup$/;"	f	class:UsersControllerTest
+test_should_require_password_confirmation_on_signup	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_require_password_confirmation_on_signup$/;"	f
+test_should_require_password_on_signup	test/functional/users_controller_test.rb	/^  def test_should_require_password_on_signup$/;"	f	class:UsersControllerTest
+test_should_require_password_on_signup	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_require_password_on_signup$/;"	f
+test_should_reset_password	test/unit/user_test.rb	/^  def test_should_reset_password$/;"	f	class:UserTest
+test_should_reset_password	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_reset_password$/;"	f
+test_should_set_remember_token	test/unit/user_test.rb	/^  def test_should_set_remember_token$/;"	f	class:UserTest
+test_should_set_remember_token	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_set_remember_token$/;"	f
+test_should_sign_up_user_in_pending_state	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_sign_up_user_in_pending_state$/;"	f
+test_should_sign_up_user_with_activation_code	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_sign_up_user_with_activation_code$/;"	f
+test_should_suspend_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_suspend_<%= file_name %>$/;"	f
+test_should_unset_remember_token	test/unit/user_test.rb	/^  def test_should_unset_remember_token$/;"	f	class:UserTest
+test_should_unset_remember_token	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_unset_remember_token$/;"	f
+test_should_unsuspend_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_unsuspend_<%= file_name %>_to_active_state$/;"	f
+test_should_unsuspend_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_unsuspend_<%= file_name %>_with_activation_code_and_nil_activated_at_to_pending_state$/;"	f
+test_should_unsuspend_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_should_unsuspend_<%= file_name %>_with_nil_activation_code_and_activated_at_to_passive_state$/;"	f
+test_suspended_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def test_suspended_<%= file_name %>_should_not_authenticate$/;"	f
+to_array_from_story	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^  def to_array_from_story$/;"	f	class:ToFooFromStory.to_hash_from_story
+to_hash_from_story	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^  def to_hash_from_story$/;"	f	class:ToFooFromStory
+unsuspend	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def unsuspend$/;"	f
+up	db/migrate/20090304013306_create_users.rb	/^  def self.up$/;"	F	class:CreateUsers
+up	vendor/plugins/restful-authentication/generators/authenticated/templates/migration.rb	/^  def self.up$/;"	F
+valid_remember_cookie?	lib/authenticated_system.rb	/^    def valid_remember_cookie?$/;"	f	class:AuthenticatedSystem
+valid_remember_cookie?	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def valid_remember_cookie?$/;"	f	class:AuthenticatedSystem
+vendor_rails?	config/boot.rb	/^    def vendor_rails?$/;"	f	class:Rails
