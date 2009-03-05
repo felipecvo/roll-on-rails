@@ -6,6 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.7	//
 AasmRoles	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^  module AasmRoles$/;"	m	class:Authorization
 AccessControlTestController	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/access_control_spec.rb	/^class AccessControlTestController < ApplicationController$/;"	c
+AddRollColumn	db/migrate/20090305200011_add_roll_column.rb	/^class AddRollColumn < ActiveRecord::Migration$/;"	c
 ApplicationController	app/controllers/application.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
 AuthenticatedGenerator	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^class AuthenticatedGenerator < Rails::Generator::NamedBase$/;"	c
@@ -27,6 +28,8 @@ ByPassword	vendor/plugins/restful-authentication/lib/authentication/by_password.
 ClassMethods	vendor/plugins/restful-authentication/lib/trustification/email_validation.rb	/^    module ClassMethods$/;"	m	class:Trustification.EmailValidation
 ControllerClassMethods	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^    module ControllerClassMethods$/;"	m	class:Authentication.ByCookieTokenController
 ControllerInstanceMethods	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^    module ControllerInstanceMethods$/;"	m	class:Authentication.ByCookieTokenController
+CreateStories	db/migrate/20090303181947_create_stories.rb	/^class CreateStories < ActiveRecord::Migration$/;"	c
+CreateTags	db/migrate/20090305201201_create_tags.rb	/^class CreateTags < ActiveRecord::Migration$/;"	c
 CreateUsers	db/migrate/20090304013306_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
 EmailValidation	vendor/plugins/restful-authentication/lib/trustification/email_validation.rb	/^  module EmailValidation$/;"	m	class:Trustification
 GemBoot	config/boot.rb	/^  class GemBoot < Boot$/;"	c
@@ -52,7 +55,14 @@ StatefulRolesClassMethods	vendor/plugins/restful-authentication/lib/authorizatio
 StatefulRolesClassMethods	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.rb	/^    module StatefulRolesClassMethods$/;"	m	class:Authorization.StatefulRoles
 StatefulRolesInstanceMethods	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^    module StatefulRolesInstanceMethods$/;"	m	class:Authorization.AasmRoles
 StatefulRolesInstanceMethods	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.rb	/^    module StatefulRolesInstanceMethods$/;"	m	class:Authorization.StatefulRoles
+StoriesController	app/controllers/stories_controller.rb	/^class StoriesController < ApplicationController$/;"	c
+StoriesControllerTest	test/functional/stories_controller_test.rb	/^class StoriesControllerTest < ActionController::TestCase$/;"	c
+StoriesHelper	app/helpers/stories_helper.rb	/^module StoriesHelper$/;"	m
+Story	app/models/story.rb	/^class Story < ActiveRecord::Base$/;"	c
+StoryTest	test/unit/story_test.rb	/^class StoryTest < ActiveSupport::TestCase$/;"	c
 String	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^class String$/;"	c	class:ToFooFromStory
+Tag	app/models/tag.rb	/^class Tag < ActiveRecord::Base$/;"	c
+TagTest	test/unit/tag_test.rb	/^class TagTest < ActiveSupport::TestCase$/;"	c
 Test	test/test_helper.rb	/^class Test::Unit::TestCase$/;"	c
 ToFooFromStory	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^module ToFooFromStory$/;"	m
 Trustification	vendor/plugins/restful-authentication/lib/trustification.rb	/^module Trustification$/;"	m
@@ -89,6 +99,7 @@ booted?	config/boot.rb	/^    def booted?$/;"	f	class:Rails
 cookie_for	test/functional/sessions_controller_test.rb	/^    def cookie_for(user)$/;"	f	class:SessionsControllerTest
 cookie_for	vendor/plugins/restful-authentication/generators/authenticated/templates/test/functional_test.rb	/^    def cookie_for(<%= file_name %>)$/;"	f
 create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	app/controllers/stories_controller.rb	/^  def create$/;"	f	class:StoriesController
 create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
 create	vendor/plugins/restful-authentication/generators/authenticated/templates/controller.rb	/^  def create$/;"	f
 create	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def create$/;"	f
@@ -105,6 +116,7 @@ current_	vendor/plugins/restful-authentication/generators/authenticated/template
 current_user	lib/authenticated_system.rb	/^    def current_user$/;"	f	class:AuthenticatedSystem
 current_user=	lib/authenticated_system.rb	/^    def current_user=(new_user)$/;"	f	class:AuthenticatedSystem
 destroy	app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+destroy	app/controllers/stories_controller.rb	/^  def destroy$/;"	f	class:StoriesController
 destroy	vendor/plugins/restful-authentication/generators/authenticated/templates/controller.rb	/^  def destroy$/;"	f
 destroy	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def destroy$/;"	f
 do_activate	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^      def do_activate$/;"	f	class:Authorization.AasmRoles.StatefulRolesInstanceMethods
@@ -113,10 +125,14 @@ do_create	vendor/plugins/restful-authentication/generators/authenticated/templat
 do_delete	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^      def do_delete$/;"	f	class:Authorization.AasmRoles.StatefulRolesInstanceMethods
 do_delete	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.rb	/^      def do_delete$/;"	f	class:Authorization.StatefulRoles.StatefulRolesInstanceMethods
 do_destroy	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/sessions_controller_spec.rb	/^    def do_destroy$/;"	f
+down	db/migrate/20090303181947_create_stories.rb	/^  def self.down$/;"	F	class:CreateStories
 down	db/migrate/20090304013306_create_users.rb	/^  def self.down$/;"	F
+down	db/migrate/20090305200011_add_roll_column.rb	/^  def self.down$/;"	F	class:AddRollColumn
+down	db/migrate/20090305201201_create_tags.rb	/^  def self.down$/;"	F	class:CreateTags
 down	vendor/plugins/restful-authentication/generators/authenticated/templates/migration.rb	/^  def self.down$/;"	F
 dump_generator_attribute_names	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def dump_generator_attribute_names$/;"	f	class:AuthenticatedGenerator
 dump_response	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^def dump_response$/;"	f	class:ToFooFromStory
+edit	app/controllers/stories_controller.rb	/^  def edit$/;"	f	class:StoriesController
 email=	app/models/user.rb	/^  def email=(value)$/;"	f	class:User
 email=	vendor/plugins/restful-authentication/generators/authenticated/templates/model.rb	/^  def email=(value)$/;"	f
 encode	vendor/plugins/restful-authentication/generators/authenticated/templates/test/mailer_test.rb	/^    def encode(subject)$/;"	f
@@ -148,6 +164,7 @@ included	vendor/plugins/restful-authentication/lib/authorization/stateful_roles.
 included	vendor/plugins/restful-authentication/lib/trustification.rb	/^  def self.included(recipient)$/;"	F	class:Trustification
 included	vendor/plugins/restful-authentication/lib/trustification/email_validation.rb	/^    def self.included(recipient)$/;"	F	class:Trustification.EmailValidation
 index	app/controllers/home_controller.rb	/^  def index$/;"	f	class:HomeController
+index	app/controllers/stories_controller.rb	/^  def index$/;"	f	class:StoriesController
 initialize	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def initialize(runtime_args, runtime_options = {})$/;"	f	class:AuthenticatedGenerator
 instantize	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^def instantize(string)$/;"	f	class:ToFooFromStory
 keep_instance!	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_resource_steps.rb	/^def keep_instance! resource, object$/;"	f
@@ -197,6 +214,7 @@ memorize_resource_value	vendor/plugins/restful-authentication/generators/authent
 mock_	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_test_helper.rb	/^  def mock_<%= file_name %>$/;"	f	class:AuthenticatedTestHelper
 named_user	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/user_steps.rb	/^def named_user login$/;"	f
 new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	app/controllers/stories_controller.rb	/^  def new$/;"	f	class:StoriesController
 new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
 new	vendor/plugins/restful-authentication/generators/authenticated/templates/controller.rb	/^  def new$/;"	f
 new	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def new$/;"	f
@@ -237,6 +255,7 @@ send_remember_cookie!	vendor/plugins/restful-authentication/generators/authentic
 set_remember_token	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/authenticated_system_spec.rb	/^    def set_remember_token token, time$/;"	f
 setup	vendor/plugins/restful-authentication/generators/authenticated/templates/test/mailer_test.rb	/^  def setup$/;"	f
 setup_email	vendor/plugins/restful-authentication/generators/authenticated/templates/mailer.rb	/^    def setup_email(<%= file_name %>)$/;"	f
+show	app/controllers/stories_controller.rb	/^  def show$/;"	f	class:StoriesController
 signup_notification	vendor/plugins/restful-authentication/generators/authenticated/templates/mailer.rb	/^  def signup_notification(<%= file_name %>)$/;"	f
 site_keys_file	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def site_keys_file$/;"	f	class:AuthenticatedGenerator
 store_location	lib/authenticated_system.rb	/^    def store_location$/;"	f	class:AuthenticatedSystem
@@ -316,8 +335,12 @@ test_suspended_	vendor/plugins/restful-authentication/generators/authenticated/t
 to_array_from_story	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^  def to_array_from_story$/;"	f	class:ToFooFromStory.to_hash_from_story
 to_hash_from_story	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^  def to_hash_from_story$/;"	f	class:ToFooFromStory
 unsuspend	vendor/plugins/restful-authentication/generators/authenticated/templates/model_controller.rb	/^  def unsuspend$/;"	f
+up	db/migrate/20090303181947_create_stories.rb	/^  def self.up$/;"	F	class:CreateStories
 up	db/migrate/20090304013306_create_users.rb	/^  def self.up$/;"	F	class:CreateUsers
+up	db/migrate/20090305200011_add_roll_column.rb	/^  def self.up$/;"	F	class:AddRollColumn
+up	db/migrate/20090305201201_create_tags.rb	/^  def self.up$/;"	F	class:CreateTags
 up	vendor/plugins/restful-authentication/generators/authenticated/templates/migration.rb	/^  def self.up$/;"	F
+update	app/controllers/stories_controller.rb	/^  def update$/;"	f	class:StoriesController
 valid_remember_cookie?	lib/authenticated_system.rb	/^    def valid_remember_cookie?$/;"	f	class:AuthenticatedSystem
 valid_remember_cookie?	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def valid_remember_cookie?$/;"	f	class:AuthenticatedSystem
 vendor_rails?	config/boot.rb	/^    def vendor_rails?$/;"	f	class:Rails
