@@ -11,9 +11,12 @@
   <div id="container">
     <p class="top">Roll on Rails</p>
     <div id="menu">
+      <div style="float:left"><%= current_user.name if logged_in? %></div>
       <ul>
         <li><a href="/">Home</a></li>
+        <li><a href="/stories">Upcoming Stories</a></li>
         <% if logged_in? %>
+        <li><a href="/stories/new">Submit a story</a></li>
         <li><a href="/logout">Logout</a></li>
         <% else %>
         <li><a href="/login">Login</a></li>

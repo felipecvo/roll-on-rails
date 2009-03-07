@@ -1,4 +1,9 @@
 <p>
+  <b>User:</b>
+  <%=h @story.user.name %>
+</p>
+
+<p>
   <b>Url:</b>
   <%=h @story.url %>
 </p>
@@ -11,6 +16,11 @@
 <p>
   <b>Description:</b>
   <%=h @story.description %>
+</p>
+
+<p>
+  <b>Tags:</b>
+  <%= linklize(@story.tag_list) %>
 </p>
 
 

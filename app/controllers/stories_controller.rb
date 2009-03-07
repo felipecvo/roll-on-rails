@@ -1,4 +1,6 @@
 class StoriesController < ApplicationController
+  before_filter :login_required
+
   # GET /stories
   # GET /stories.xml
   def index
@@ -40,7 +42,7 @@ class StoriesController < ApplicationController
   # POST /stories
   # POST /stories.xml
   def create
-    @story = Story.new(params[:story])
+    @story = current_user.stories.new(params[:story])
 
     respond_to do |format|
       if @story.save
@@ -82,4 +84,7 @@ class StoriesController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
+  protected
+
 end

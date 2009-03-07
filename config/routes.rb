@@ -9,6 +9,8 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resource :session
 
+  map.connect '/tags/:id', :controller => 'tags', :action => 'show'
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

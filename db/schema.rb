@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090305201201) do
+ActiveRecord::Schema.define(:version => 20090306173537) do
 
   create_table "stories", :force => true do |t|
     t.string   "url"
@@ -18,6 +18,14 @@ ActiveRecord::Schema.define(:version => 20090305201201) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "rolled",      :default => 1
+    t.integer  "user_id"
+  end
+
+  create_table "stories_tags", :id => false, :force => true do |t|
+    t.integer  "story_id"
+    t.integer  "tag_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "tags", :force => true do |t|
