@@ -1,11 +1,19 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  url: MyString
-  title: MyString
-  description: MyString
+  id: 1
+  url: http://rfacebook.wordpress.com/2008/01/10/tutorial/
+  title: How To  Tutorial on developing a Facebook application using Ruby on Rails (Part I)
+  description: How To Tutorial on developing a Facebook application using Ruby on Rails (Part I)
+  rolled: 1
+  category_id: 14
+  user_id: 1
 
 two:
-  url: MyString
-  title: MyString
-  description: MyString
+  id: 2
+  url: http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html 
+  title: Git Magic
+  description: Git is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master. I'm recording what I've figured out so far in these pages, because I initially had difficulty understanding the Git user manual.
+  rolled: 1
+  category_id: 20 
+  user_id: 1

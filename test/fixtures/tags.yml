@@ -1,9 +1,16 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  name: MyString
+  id: 1
+  name: git
   count: 1
 
 two:
-  name: MyString
+  id: 2
+  name: facebook
   count: 1
+
+three:
+  id: 3
+  name: howto
+  count: 2

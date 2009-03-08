@@ -1,0 +1,86 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  name: Active Record
+  
+two:
+  id: 2
+  name: Active Resource
+
+three:
+  id: 3
+  name: Active Support
+  
+four:
+  id: 4
+  name: AJAX
+  
+five:
+  id: 5
+  name: Architeture
+  
+six:
+  id: 6
+  name: Caching
+  
+seven:
+  id: 7
+  name: Controllers
+  
+eight:
+  id: 8
+  name: Debugging
+  
+nine:
+  id: 9
+  name: Deployment
+  
+ten:
+  id: 10
+  name: Forms
+  
+eleven:
+  id: 11
+  name: Javascript
+  
+twelve:
+  id: 12
+  name: Models
+  
+thirteen:
+  id: 13
+  name: Performance
+  
+fourteen:
+  id: 14
+  name: Plugins
+  
+fifteen:
+  id: 15
+  name: Refactoring
+  
+sixteen:
+  id: 16
+  name: Routing
+  
+seventeen:
+  id: 17
+  name: Ruby
+  
+eighteen:
+  id: 18
+  name: Security
+  
+nineteen:
+  id: 19
+  name: Testing
+  
+twenty:
+  id: 20
+  name: Tools
+
+twenty one:
+  id: 21
+  name: Views
+

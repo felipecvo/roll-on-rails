@@ -1,0 +1,20 @@
+Unable to load stories_tag, underlying cause no such file to load -- stories_tag 
+
+ /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:155:in `require'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:262:in `require_or_load'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:221:in `depend_on'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:133:in `require_dependency'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:856:in `try_to_load_dependency'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:871:in `require_fixture_classes'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `each'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:851:in `fixtures'
+/home/felipe/Projects/rollonrails/test/test_helper.rb:35
+/home/felipe/Projects/rollonrails/test/functional/stories_controller_test.rb:1:in `require'
+/home/felipe/Projects/rollonrails/test/functional/stories_controller_test.rb:1
+/usr/lib/ruby/gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5:in `load'
+/usr/lib/ruby/gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5
+/usr/lib/ruby/gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5:in `each'
+/usr/lib/ruby/gems/1.8/gems/rake-0.8.4/lib/rake/rake_test_loader.rb:5

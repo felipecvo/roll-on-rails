@@ -1,4 +1,4 @@
-<h1>New story</h1>
+<h1>Submit new story</h1>
 <% form_for(@story) do |f| %>
   <%= f.error_messages %>
 
@@ -13,6 +13,12 @@
   <p>
     <%= f.label :description %><br />
     <%= f.text_area :description %>
+  </p>
+  <p>
+    Category:<br />
+    <% @categories.each do |category| %>
+      <%= radio_button 'story', 'category_id', category.id %><%= category.name %>
+    <% end %>
   </p>
   <p>
     Tags<br />

@@ -1,6 +1,6 @@
 class Story < ActiveRecord::Base
-  #has_many :tags, :through => :stories_tags
   has_and_belongs_to_many :tags
+  belongs_to :category
   belongs_to :user
   
   validates_presence_of :url
@@ -8,6 +8,7 @@ class Story < ActiveRecord::Base
   validates_presence_of :title
   validates_presence_of :description
   validates_presence_of :user_id
+  validates_presence_of :category_id, :message => 'must be selected'
 
   def tag_list
     self.tags.to_a

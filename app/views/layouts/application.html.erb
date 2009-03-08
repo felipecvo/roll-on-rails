@@ -25,10 +25,18 @@
       </ul>
     </div>
 
-    <div id="center">
+    <div id="center" style="float:left;background-color:white;width:985px;">
       <p style="color: green"><%= flash[:notice] %></p>
-      <%= current_user.name if logged_in? %>
-      <%= yield  %>
+      <div style="float:right; width: 150px; border: solid 1px #C52F24; background-color: #ffdcd9;">
+        <ul>
+        <% Category.find(:all).each do |category| %>
+          <li><%= category.name %></li>
+        <% end %>
+      </ul>
+      </div>
+      <div style="width: 833px;">
+        <%= yield  %>
+      </div>
     </div>
   </div>
 </body>

@@ -6,6 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.7	//
 AasmRoles	vendor/plugins/restful-authentication/lib/authorization/aasm_roles.rb	/^  module AasmRoles$/;"	m	class:Authorization
 AccessControlTestController	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/access_control_spec.rb	/^class AccessControlTestController < ApplicationController$/;"	c
+AddColumnCategoryToStory	db/migrate/20090308170435_add_column_category_to_story.rb	/^class AddColumnCategoryToStory < ActiveRecord::Migration$/;"	c
 AddRollColumn	db/migrate/20090305200011_add_roll_column.rb	/^class AddRollColumn < ActiveRecord::Migration$/;"	c
 AddStoriesUserIdCollumn	db/migrate/20090306173537_add_stories_user_id_collumn.rb	/^class AddStoriesUserIdCollumn < ActiveRecord::Migration$/;"	c
 ApplicationController	app/controllers/application.rb	/^class ApplicationController < ActionController::Base$/;"	c
@@ -26,9 +27,12 @@ BrowsingTest	test/performance/browsing_test.rb	/^class BrowsingTest < ActionCont
 ByCookieToken	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^  module ByCookieToken$/;"	m	class:Authentication
 ByCookieTokenController	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^  module ByCookieTokenController$/;"	m	class:Authentication
 ByPassword	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^  module ByPassword$/;"	m	class:Authentication
+Category	app/models/category.rb	/^class Category < ActiveRecord::Base$/;"	c
+CategoryTest	test/unit/category_test.rb	/^class CategoryTest < ActiveSupport::TestCase$/;"	c
 ClassMethods	vendor/plugins/restful-authentication/lib/trustification/email_validation.rb	/^    module ClassMethods$/;"	m	class:Trustification.EmailValidation
 ControllerClassMethods	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^    module ControllerClassMethods$/;"	m	class:Authentication.ByCookieTokenController
 ControllerInstanceMethods	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^    module ControllerInstanceMethods$/;"	m	class:Authentication.ByCookieTokenController
+CreateCategories	db/migrate/20090308150052_create_categories.rb	/^class CreateCategories < ActiveRecord::Migration$/;"	c
 CreateStories	db/migrate/20090303181947_create_stories.rb	/^class CreateStories < ActiveRecord::Migration$/;"	c
 CreateStoriesTags	db/migrate/20090306141200_create_stories_tags.rb	/^class CreateStoriesTags < ActiveRecord::Migration$/;"	c
 CreateTags	db/migrate/20090305201201_create_tags.rb	/^class CreateTags < ActiveRecord::Migration$/;"	c
@@ -138,6 +142,8 @@ down	db/migrate/20090305200011_add_roll_column.rb	/^  def self.down$/;"	F	class:
 down	db/migrate/20090305201201_create_tags.rb	/^  def self.down$/;"	F	class:CreateTags
 down	db/migrate/20090306141200_create_stories_tags.rb	/^  def self.down$/;"	F	class:CreateStoriesTags
 down	db/migrate/20090306173537_add_stories_user_id_collumn.rb	/^  def self.down$/;"	F	class:AddStoriesUserIdCollumn
+down	db/migrate/20090308150052_create_categories.rb	/^  def self.down$/;"	F	class:CreateCategories
+down	db/migrate/20090308170435_add_column_category_to_story.rb	/^  def self.down$/;"	F	class:AddColumnCategoryToStory
 down	vendor/plugins/restful-authentication/generators/authenticated/templates/migration.rb	/^  def self.down$/;"	F
 dump_generator_attribute_names	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def dump_generator_attribute_names$/;"	f	class:AuthenticatedGenerator
 dump_response	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^def dump_response$/;"	f	class:ToFooFromStory
@@ -354,6 +360,8 @@ up	db/migrate/20090305200011_add_roll_column.rb	/^  def self.up$/;"	F	class:AddR
 up	db/migrate/20090305201201_create_tags.rb	/^  def self.up$/;"	F	class:CreateTags
 up	db/migrate/20090306141200_create_stories_tags.rb	/^  def self.up$/;"	F	class:CreateStoriesTags
 up	db/migrate/20090306173537_add_stories_user_id_collumn.rb	/^  def self.up$/;"	F	class:AddStoriesUserIdCollumn
+up	db/migrate/20090308150052_create_categories.rb	/^  def self.up$/;"	F	class:CreateCategories
+up	db/migrate/20090308170435_add_column_category_to_story.rb	/^  def self.up$/;"	F	class:AddColumnCategoryToStory
 up	vendor/plugins/restful-authentication/generators/authenticated/templates/migration.rb	/^  def self.up$/;"	F
 update	app/controllers/stories_controller.rb	/^  def update$/;"	f	class:StoriesController
 valid_remember_cookie?	lib/authenticated_system.rb	/^    def valid_remember_cookie?$/;"	f	class:AuthenticatedSystem

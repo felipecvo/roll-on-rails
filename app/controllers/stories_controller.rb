@@ -1,5 +1,5 @@
 class StoriesController < ApplicationController
-  before_filter :login_required
+  before_filter :login_required, :except => [:index, :show]
 
   # GET /stories
   # GET /stories.xml
@@ -27,6 +27,7 @@ class StoriesController < ApplicationController
   # GET /stories/new.xml
   def new
     @story = Story.new
+    @categories = Category.find(:all)
 
     respond_to do |format|
       format.html # new.html.erb
@@ -50,6 +51,7 @@ class StoriesController < ApplicationController
         format.html { redirect_to(@story) }
         format.xml  { render :xml => @story, :status => :created, :location => @story }
       else
+        @categories = Category.find(:all)
         format.html { render :action => "new" }
         format.xml  { render :xml => @story.errors, :status => :unprocessable_entity }
       end
@@ -84,7 +86,5 @@ class StoriesController < ApplicationController
       format.xml  { head :ok }
     end
   end
-
-  protected
 
 end

@@ -1,9 +1,17 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  story_id: 1
+  story_id: 2
   tag_id: 1
 
 two:
   story_id: 1
-  tag_id: 1
+  tag_id: 3
+
+three:
+  story_id: 1
+  tag_id: 2
+
+four:
+  story_id: 2
+  tag_id: 3
