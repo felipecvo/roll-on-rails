@@ -1,0 +1,29 @@
+<div class="vote">
+  <a class="rolls" href="<%= url_for :action => :show, :id => story.permalink %>">
+    <strong><%= story.rolled %></strong>
+    Rolls
+  </a>
+  <% if user_rolled story -%>
+    <a class="action">Rolled</a>
+  <% else -%>
+    <a class="action" href="<%= url_for :action => :vote, :id => story.id %>">Roll it</a>
+  <% end -%>
+</div>
+<div class="user">
+  <%= gravatar_for story.user, { :size => 40, :rating => 'G', :class => '1', :alt => story.user.name, :default => '9519397e7892428d73ce5dfa70435537' } %>
+  <div>submitted by</div>
+  <div><%= link_to_user story.user %></div>
+  <div><%= time_ago_in_words story.created_at %> ago</div>
+</div>
+<div class="<%= cycle('story', 'story storyAlt') %>">
+  <h1><a href="<%= story.url %>"><%= story.title %></a></h1>
+  <p><em><%= get_domain story.url %> &#8212; </em>
+    <%=h story.description %>
+  </p>
+
+  <div>
+    <b>Tags:</b>
+    <%= linklize(story.tag_list) %>
+  </div>
+</div>
+

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090308170435) do
+ActiveRecord::Schema.define(:version => 20090311180037) do
 
   create_table "categories", :force => true do |t|
     t.string   "name"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(:version => 20090308170435) do
     t.integer  "rolled",      :default => 1
     t.integer  "user_id"
     t.integer  "category_id"
+    t.string   "permalink"
   end
 
   create_table "stories_tags", :id => false, :force => true do |t|
@@ -55,5 +56,12 @@ ActiveRecord::Schema.define(:version => 20090308170435) do
   end
 
   add_index "users", ["login"], :name => "index_users_on_login", :unique => true
+
+  create_table "votes", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "story_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

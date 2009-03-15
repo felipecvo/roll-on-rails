@@ -4,7 +4,9 @@ class StoriesController < ApplicationController
   # GET /stories
   # GET /stories.xml
   def index
-    @stories = Story.find(:all)
+    page = 1
+    page = params[:page] if params[:page]
+    @stories = Story.paginate :page => page, :order => 'created_at DESC', :per_page => 5
 
     respond_to do |format|
       format.html # index.html.erb
@@ -15,7 +17,7 @@ class StoriesController < ApplicationController
   # GET /stories/1
   # GET /stories/1.xml
   def show
-    @story = Story.find(params[:id])
+    @story = Story.find_by_permalink(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -44,11 +46,14 @@ class StoriesController < ApplicationController
   # POST /stories.xml
   def create
     @story = current_user.stories.new(params[:story])
+    @story.permalink = create_permalink(@story.title)
+
+    @story.permalink += "-#{Time.now.to_i}" if Story.find_by_permalink(@story.permalink)
 
     respond_to do |format|
       if @story.save
         flash[:notice] = 'Story was successfully created.'
-        format.html { redirect_to(@story) }
+        format.html { redirect_to :action => :show, :id => @story.permalink }
         format.xml  { render :xml => @story, :status => :created, :location => @story }
       else
         @categories = Category.find(:all)
@@ -87,4 +92,25 @@ class StoriesController < ApplicationController
     end
   end
 
+  def vote
+    Story.transaction do
+      Vote.transaction do
+        @story = Story.find(params[:id])
+        if @story.user_id != current_user.id
+          @already_voted = @story.votes.find_by_user_id(current_user.id)
+          unless @already_voted
+            @story.rolled += 1
+            @story.votes.build(:user_id => current_user.id)
+            @story.save
+          end
+        end
+      end
+    end
+
+    respond_to do |format|
+      format.html { redirect_to :action => :show, :id => @story.permalink }
+      format.xml  { head :ok }
+      format.json { head :ok }
+    end
+  end
 end

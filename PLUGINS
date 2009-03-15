@@ -8,3 +8,12 @@ Please, keep this updated!
 = RESTFull Authentication
 = git://github.com/technoweenie/restful-authentication.git
 = http://agilewebdevelopment.com/plugins/restful_authentication
+
+= Will paginate
+= sudo gem install mislav-will_paginate (gems.github.com)
+= http://github.com/mislav/will_paginate
+
+= Gravatar
+= git://github.com/woods/gravatar-plugin.git
+= http://github.com/woods/gravatar-plugin
+

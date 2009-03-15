@@ -9,6 +9,7 @@ AccessControlTestController	vendor/plugins/restful-authentication/generators/aut
 AddColumnCategoryToStory	db/migrate/20090308170435_add_column_category_to_story.rb	/^class AddColumnCategoryToStory < ActiveRecord::Migration$/;"	c
 AddRollColumn	db/migrate/20090305200011_add_roll_column.rb	/^class AddRollColumn < ActiveRecord::Migration$/;"	c
 AddStoriesUserIdCollumn	db/migrate/20090306173537_add_stories_user_id_collumn.rb	/^class AddStoriesUserIdCollumn < ActiveRecord::Migration$/;"	c
+AddStoryPermalink	db/migrate/20090311180037_add_story_permalink.rb	/^class AddStoryPermalink < ActiveRecord::Migration$/;"	c
 ApplicationController	app/controllers/application.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
 AuthenticatedGenerator	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^class AuthenticatedGenerator < Rails::Generator::NamedBase$/;"	c
@@ -37,8 +38,10 @@ CreateStories	db/migrate/20090303181947_create_stories.rb	/^class CreateStories 
 CreateStoriesTags	db/migrate/20090306141200_create_stories_tags.rb	/^class CreateStoriesTags < ActiveRecord::Migration$/;"	c
 CreateTags	db/migrate/20090305201201_create_tags.rb	/^class CreateTags < ActiveRecord::Migration$/;"	c
 CreateUsers	db/migrate/20090304013306_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+CreateVotes	db/migrate/20090311132014_create_votes.rb	/^class CreateVotes < ActiveRecord::Migration$/;"	c
 EmailValidation	vendor/plugins/restful-authentication/lib/trustification/email_validation.rb	/^  module EmailValidation$/;"	m	class:Trustification
 GemBoot	config/boot.rb	/^  class GemBoot < Boot$/;"	c
+GravatarHelper	vendor/plugins/gravatar-plugin/lib/gravatar.rb	/^module GravatarHelper$/;"	m
 HomeController	app/controllers/home_controller.rb	/^class HomeController < ApplicationController$/;"	c
 InstanceMethods	vendor/plugins/restful-authentication/lib/trustification/email_validation.rb	/^    module InstanceMethods$/;"	m	class:Trustification.EmailValidation
 ModelClassMethods	vendor/plugins/restful-authentication/lib/authentication.rb	/^  module ModelClassMethods$/;"	m	class:Authentication
@@ -51,6 +54,7 @@ ModelInstanceMethods	vendor/plugins/restful-authentication/lib/authentication/by
 ModelInstanceMethods	vendor/plugins/restful-authentication/lib/authentication/by_password.rb	/^    module ModelInstanceMethods$/;"	m	class:Authentication.ByPassword
 ModelInstanceMethods	vendor/plugins/restful-authentication/lib/authorization.rb	/^  module ModelInstanceMethods$/;"	m	class:Authorization
 ModelInstanceMethods	vendor/plugins/restful-authentication/lib/trustification.rb	/^  module ModelInstanceMethods$/;"	m	class:Trustification
+PublicMethods	vendor/plugins/gravatar-plugin/lib/gravatar.rb	/^  module PublicMethods$/;"	m	class:GravatarHelper
 Rails	config/boot.rb	/^module Rails$/;"	m
 SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
 SessionsController	test/functional/sessions_controller_test.rb	/^class SessionsController; def rescue_action(e) raise e end; end$/;"	c
@@ -85,6 +89,8 @@ UsersController	test/functional/users_controller_test.rb	/^class UsersController
 UsersControllerTest	test/functional/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
 UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
 VendorBoot	config/boot.rb	/^  class VendorBoot < Boot$/;"	c
+Vote	app/models/vote.rb	/^class Vote < ActiveRecord::Base$/;"	c
+VoteTest	test/unit/vote_test.rb	/^class VoteTest < ActiveSupport::TestCase$/;"	c
 access_denied	lib/authenticated_system.rb	/^    def access_denied$/;"	f	class:AuthenticatedSystem
 access_denied	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def access_denied$/;"	f	class:AuthenticatedSystem
 action_name	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/controllers/authenticated_system_spec.rb	/^def action_name() end$/;"	f
@@ -118,6 +124,7 @@ create_	vendor/plugins/restful-authentication/generators/authenticated/templates
 create_	vendor/plugins/restful-authentication/generators/authenticated/templates/spec/models/user_spec.rb	/^  def create_<%= file_name %>(options = {})$/;"	f
 create_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^    def create_<%= file_name %>(options = {})$/;"	f
 create_	vendor/plugins/restful-authentication/generators/authenticated/templates/test/unit_test.rb	/^  def create_<%= file_name %>(options = {})$/;"	f
+create_permalink	app/controllers/application.rb	/^  def create_permalink(string, separator = '-', max_size = 127)$/;"	f	class:ApplicationController
 create_user	test/functional/users_controller_test.rb	/^    def create_user(options = {})$/;"	f	class:UsersControllerTest
 create_user	test/unit/user_test.rb	/^  def create_user(options = {})$/;"	f	class:UserTest
 create_user	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/user_steps.rb	/^def create_user(user_params={})$/;"	f
@@ -144,6 +151,8 @@ down	db/migrate/20090306141200_create_stories_tags.rb	/^  def self.down$/;"	F	cl
 down	db/migrate/20090306173537_add_stories_user_id_collumn.rb	/^  def self.down$/;"	F	class:AddStoriesUserIdCollumn
 down	db/migrate/20090308150052_create_categories.rb	/^  def self.down$/;"	F	class:CreateCategories
 down	db/migrate/20090308170435_add_column_category_to_story.rb	/^  def self.down$/;"	F	class:AddColumnCategoryToStory
+down	db/migrate/20090311132014_create_votes.rb	/^  def self.down$/;"	F	class:CreateVotes
+down	db/migrate/20090311180037_add_story_permalink.rb	/^  def self.down$/;"	F	class:AddStoryPermalink
 down	vendor/plugins/restful-authentication/generators/authenticated/templates/migration.rb	/^  def self.down$/;"	F
 dump_generator_attribute_names	vendor/plugins/restful-authentication/generators/authenticated/authenticated_generator.rb	/^  def dump_generator_attribute_names$/;"	f	class:AuthenticatedGenerator
 dump_response	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^def dump_response$/;"	f	class:ToFooFromStory
@@ -160,6 +169,11 @@ fix_key	vendor/plugins/restful-authentication/generators/authenticated/templates
 fix_value	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/rest_auth_features_helper.rb	/^  def ToFooFromStory.fix_value value$/;"	F	class:ToFooFromStory
 forget_me	vendor/plugins/restful-authentication/lib/authentication/by_cookie_token.rb	/^      def forget_me$/;"	f	class:Authentication.ByCookieToken.ModelInstanceMethods
 gem_version	config/boot.rb	/^      def gem_version$/;"	f	class:GemBoot
+get_domain	app/helpers/stories_helper.rb	/^  def get_domain(url)$/;"	f	class:StoriesHelper
+gravatar	vendor/plugins/gravatar-plugin/lib/gravatar.rb	/^    def gravatar(email, options={})$/;"	f	class:GravatarHelper.PublicMethods
+gravatar_api_url	vendor/plugins/gravatar-plugin/lib/gravatar.rb	/^    def gravatar_api_url(hash, ssl=false)$/;"	f	class:GravatarHelper.PublicMethods
+gravatar_for	vendor/plugins/gravatar-plugin/lib/gravatar.rb	/^    def gravatar_for(user, options={})$/;"	f	class:GravatarHelper.PublicMethods
+gravatar_url	vendor/plugins/gravatar-plugin/lib/gravatar.rb	/^    def gravatar_url(email, options={})$/;"	f	class:GravatarHelper.PublicMethods
 grok_path	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_response_steps.rb	/^def grok_path path$/;"	f
 handle_remember_cookie!	lib/authenticated_system.rb	/^    def handle_remember_cookie!(new_cookie_flag)$/;"	f	class:AuthenticatedSystem
 handle_remember_cookie!	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def handle_remember_cookie!(new_cookie_flag)$/;"	f	class:AuthenticatedSystem
@@ -362,8 +376,12 @@ up	db/migrate/20090306141200_create_stories_tags.rb	/^  def self.up$/;"	F	class:
 up	db/migrate/20090306173537_add_stories_user_id_collumn.rb	/^  def self.up$/;"	F	class:AddStoriesUserIdCollumn
 up	db/migrate/20090308150052_create_categories.rb	/^  def self.up$/;"	F	class:CreateCategories
 up	db/migrate/20090308170435_add_column_category_to_story.rb	/^  def self.up$/;"	F	class:AddColumnCategoryToStory
+up	db/migrate/20090311132014_create_votes.rb	/^  def self.up$/;"	F	class:CreateVotes
+up	db/migrate/20090311180037_add_story_permalink.rb	/^  def self.up$/;"	F	class:AddStoryPermalink
 up	vendor/plugins/restful-authentication/generators/authenticated/templates/migration.rb	/^  def self.up$/;"	F
 update	app/controllers/stories_controller.rb	/^  def update$/;"	f	class:StoriesController
+user_rolled	app/helpers/stories_helper.rb	/^  def user_rolled(story)$/;"	f	class:StoriesHelper
 valid_remember_cookie?	lib/authenticated_system.rb	/^    def valid_remember_cookie?$/;"	f	class:AuthenticatedSystem
 valid_remember_cookie?	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_system.rb	/^    def valid_remember_cookie?$/;"	f	class:AuthenticatedSystem
 vendor_rails?	config/boot.rb	/^    def vendor_rails?$/;"	f	class:Rails
+vote	app/controllers/stories_controller.rb	/^  def vote$/;"	f	class:StoriesController

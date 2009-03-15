@@ -1,27 +1,10 @@
-<p>
-  <b>User:</b>
-  <%=h @story.user.name %>
-</p>
-
-<p>
-  <b>Url:</b>
-  <%=h @story.url %>
-</p>
-
-<p>
-  <b>Title:</b>
-  <%=h @story.title %>
-</p>
-
-<p>
-  <b>Description:</b>
-  <%=h @story.description %>
-</p>
-
-<p>
-  <b>Tags:</b>
-  <%= linklize(@story.tag_list) %>
-</p>
+<%= render :partial => 'story' %>
+<h2>Who rolled it?</h2>
+<ul>
+<% @story.users.each do |user| %>
+  <li><%= user.login %></li>
+<% end %>
+</ul>
 
 
 <%= link_to 'Edit', edit_story_path(@story) %> |
