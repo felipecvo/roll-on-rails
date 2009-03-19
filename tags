@@ -242,7 +242,6 @@ manifest	vendor/plugins/restful-authentication/generators/authenticated/authenti
 memorize_forget_all!	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_resource_steps.rb	/^def memorize_forget_all!$/;"	f
 memorize_resource_value	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_resource_steps.rb	/^def memorize_resource_value resource, attr$/;"	f
 mock_	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_test_helper.rb	/^  def mock_<%= file_name %>$/;"	f	class:AuthenticatedTestHelper
-must_fail	test/unit/user_test.rb	/^  def must_fail$/;"	f	class:UserTest
 named_user	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/user_steps.rb	/^def named_user login$/;"	f
 new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
 new	app/controllers/stories_controller.rb	/^  def new$/;"	f	class:StoriesController
@@ -297,6 +296,7 @@ tag_list=	app/models/story.rb	/^  def tag_list=(list)$/;"	f	class:Story
 template_for	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_response_steps.rb	/^def template_for(action, resource)$/;"	f
 test_dummy_test	vendor/plugins/restful-authentication/generators/authenticated/templates/test/mailer_test.rb	/^  def test_dummy_test$/;"	f
 test_homepage	test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest
+test_must_fail	test/unit/user_test.rb	/^  def test_must_fail$/;"	f	class:UserTest
 test_should_activate_user	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_activate_user$/;"	f
 test_should_allow_signup	test/functional/users_controller_test.rb	/^  def test_should_allow_signup$/;"	f	class:UsersControllerTest
 test_should_allow_signup	vendor/plugins/restful-authentication/generators/authenticated/templates/test/model_functional_test.rb	/^  def test_should_allow_signup$/;"	f

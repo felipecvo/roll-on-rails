@@ -6,10 +6,11 @@ class UserTest < ActiveSupport::TestCase
   include AuthenticatedTestHelper
   fixtures :users
 
-  def must_fail
+  def test_must_fail
     assert_equal 1, 2
     assert_equal 2, 1
   end
+  
   def test_should_create_user
     assert_difference 'User.count' do
       user = create_user
