@@ -242,6 +242,7 @@ manifest	vendor/plugins/restful-authentication/generators/authenticated/authenti
 memorize_forget_all!	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_resource_steps.rb	/^def memorize_forget_all!$/;"	f
 memorize_resource_value	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/ra_resource_steps.rb	/^def memorize_resource_value resource, attr$/;"	f
 mock_	vendor/plugins/restful-authentication/generators/authenticated/templates/authenticated_test_helper.rb	/^  def mock_<%= file_name %>$/;"	f	class:AuthenticatedTestHelper
+must_fail	test/unit/user_test.rb	/^  def must_fail$/;"	f	class:UserTest
 named_user	vendor/plugins/restful-authentication/generators/authenticated/templates/features/step_definitions/user_steps.rb	/^def named_user login$/;"	f
 new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
 new	app/controllers/stories_controller.rb	/^  def new$/;"	f	class:StoriesController
